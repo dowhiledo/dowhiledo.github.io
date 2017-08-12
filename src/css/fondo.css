@@ -1,0 +1,129 @@
+.adelante{
+    z-index: 2;
+}
+.header-out{
+    background: url("kb.png");
+    width:100%;
+    height: 200px;
+    /*background-color: whitesmoke;*/
+    background-size:1rem;
+    /*border: 1px solid red;*/
+
+}
+.header-{
+    /*border: 1px solid blue;*/
+    width: inherit;
+    height: inherit;
+    /*background: red; !* For browsers that do not support gradients *!*/
+    /*!* For Safari 5.1 to 6.0 *!*/
+    /*background: -webkit-linear-gradient(left,rgb(233, 233, 233),orange,transparent,green,blue,indigo,violet);*/
+    /*!* For Opera 11.1 to 12.0 *!*/
+    /*background: -o-linear-gradient(left,red,orange,transparent,green,blue,indigo,violet);*/
+    /*!* For Fx 3.6 to 15 *!*/
+    /*background: -moz-linear-gradient(left,red,orange,transparent,green,blue,indigo,violet);*/
+    /*!* Standard syntax *!*/
+    /*background: linear-gradient(to right, rgb(233, 233, 233),transparent,rgb(233, 233, 233));*/
+    /*height: 250px;*/
+
+}
+.logo{
+    width: 17em;
+    border: 3px solid green;
+    border: none;
+
+}
+
+.header- li a{
+    font-family: "Futura Md BT";
+    margin-left: .4em;
+    margin-right: .4em;
+    padding-bottom: .1em;
+    border: none;
+    border-image: url(barrita2.png);
+    border-bottom: 5px solid transparent;
+    border-image-slice: 12;
+    border-image-repeat: stretch;
+    /*border-image-outset:10px 5px 15px 10px;*/
+    z-index: -22;
+}
+
+.header- li a:hover{
+}
+/*background: url(w3css.gif);*/
+/*background-size: 20%;*/
+/*border: 2px solid #92b901;*/
+
+.barra-larga{
+    height: 10px;
+    width: 100%;
+    background: red; /* For browsers that do not support gradients */
+    /* For Safari 5.1 to 6.0 */
+    background: -webkit-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+    /* For Opera 11.1 to 12.0 */
+    background: -o-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+    /* For Fx 3.6 to 15 */
+    background: -moz-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+    /* Standard syntax */
+    /*background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);*/
+    background: linear-gradient(to right, rgb(0, 92, 172),rgb(248, 199, 19), rgb(243, 0, 10));
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin: 2em;
+    margin-top: -22px;
+
+    color: white;
+    background-color: rgba(22,22,22,.55);
+    border: 1px solid white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next{
+    right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.imagenes{
+    position: relative;
+}
+
+
+.bor{
+    border: 1px solid red;
+}
+.marr{
+    margin-right: 5rem;
+    padding-right: 5rem;
+}
+
+.img3{
+    background-color: rgba(247,247,247,1);
+    height: 16em;
+}
+.imc{
+    border: 1px solid black
+}
+
+.centro{
+    background-color: rgba(61, 77, 89,1);
+    color: rgba(247,247,247,1);
+}
+.textocentro{
+    width: 70%;
+    padding: 8em;
+    margin: 0 auto;
+}

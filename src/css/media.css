@@ -1,0 +1,29 @@
+@media (max-width: 991px) {
+
+    body{
+        background-color: #c9302c;
+    }
+
+    .header- li a{
+        font-family: "Futura Md BT";
+        margin-left: .4em;
+        margin-left: inherit;
+        margin-right: .4em;
+        margin-right: inherit;
+        padding-bottom: inherit;
+        border: none;
+        border-image: none;
+        border-bottom: none;
+        border-image-slice: fill;
+        border-image-repeat: round;
+        /*border-image-outset:10px 5px 15px 10px;*/
+    }
+
+    .header- li a:hover{
+    }
+
+    .logo{
+        width: 13.4em;
+        border: 1px solid blue;
+    }
+}
