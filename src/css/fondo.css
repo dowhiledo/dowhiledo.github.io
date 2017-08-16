@@ -39,22 +39,24 @@
     margin-right: .4em;
     padding-bottom: .1em;
     border: none;
-    border-image: url(barrita2.png);
+
     border-bottom: 5px solid transparent;
-    border-image-slice: 12;
-    border-image-repeat: stretch;
+
     /*border-image-outset:10px 5px 15px 10px;*/
     z-index: -22;
 }
 
 .header- li a:hover{
+    border-image: url(barrita2.png);
+    border-image-slice: 12;
+    border-image-repeat: stretch;
 }
 /*background: url(w3css.gif);*/
 /*background-size: 20%;*/
 /*border: 2px solid #92b901;*/
 
 .barra-larga{
-    height: 10px;
+    height: .57em;
     width: 100%;
     background: red; /* For browsers that do not support gradients */
     /* For Safari 5.1 to 6.0 */
@@ -101,7 +103,6 @@
     position: relative;
 }
 
-
 .bor{
     border: 1px solid red;
 }
@@ -112,10 +113,16 @@
 
 .img3{
     background-color: rgba(247,247,247,1);
-    height: 16em;
+    padding-left: 5em;
+    padding-right: 5em;
+    /*height: 16em;*/
 }
 .imc{
-    border: 1px solid black
+    /*border: 1px solid black;*/
+    text-align:center;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 2em;
 }
 
 .centro{
@@ -124,6 +131,53 @@
 }
 .textocentro{
     width: 70%;
-    padding: 8em;
+    padding: 2em;
     margin: 0 auto;
+    margin-top: 5em;
+    margin-bottom: 3.6em;
+    border:2px solid rgba(247,247,247,1);
+}
+
+.resumenes{
+    padding: 2em 10em;
+}
+
+.resu{
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 2em;
+
+}
+.tituloContacto{
+    text-align:center;
+    /*display: inline-block;*/
+    /*vertical-align: middle;*/
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.divContact{
+    margin-bottom: 3em;
+}
+.formContacto{
+    width: 60%;
+    margin:0 auto;
+}
+
+.input-nombre{
+    display: block;
+    width: 100%;
+    min-height: 28px;
+    box-sizing: border-box;
+}
+
+
+
+.footer{
+    color: rgba(247,247,247,1);;
+    background-color: rgba(61, 77, 89,1);
+    text-align:center;
+    height: 6em;
+
+
 }
