@@ -1,5 +1,6 @@
 var slideIndex = 1;
 showDivs(slideIndex);
+autoSlide();
 
 function plusDivs(n) {
     showDivs(slideIndex += n);
@@ -14,4 +15,9 @@ function showDivs(n) {
         x[i].style.display = "none";
     }
     x[slideIndex-1].style.display = "block";
+}
+
+function autoSlide(){
+    plusDivs(1);
+    setTimeout(autoSlide,2800);
 }

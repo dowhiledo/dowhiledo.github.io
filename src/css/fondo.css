@@ -1,16 +1,18 @@
-.adelante{
+.adelante {
     z-index: 2;
 }
-.header-out{
+
+.header-out {
     background: url("kb.png");
-    width:100%;
+    width: 100%;
     height: 200px;
     /*background-color: whitesmoke;*/
-    background-size:1rem;
+    background-size: 1rem;
     /*border: 1px solid red;*/
 
 }
-.header-{
+
+.header- {
     /*border: 1px solid blue;*/
     width: inherit;
     height: inherit;
@@ -26,14 +28,15 @@
     /*height: 250px;*/
 
 }
-.logo{
+
+.logo {
     width: 17em;
     border: 3px solid green;
     border: none;
 
 }
 
-.header- li a{
+.header- li a {
     font-family: "Futura Md BT";
     margin-left: .4em;
     margin-right: .4em;
@@ -46,28 +49,33 @@
     z-index: -22;
 }
 
-.header- li a:hover{
+.header- li a:hover {
     border-image: url(barrita2.png);
     border-image-slice: 12;
     border-image-repeat: stretch;
+}
+
+
+.mySlides{
+    transition: 1s 4s bottom, 4s left cubic-bezier(1,0,1,1);
 }
 /*background: url(w3css.gif);*/
 /*background-size: 20%;*/
 /*border: 2px solid #92b901;*/
 
-.barra-larga{
+.barra-larga {
     height: .57em;
     width: 100%;
     background: red; /* For browsers that do not support gradients */
     /* For Safari 5.1 to 6.0 */
-    background: -webkit-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+    background: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
     /* For Opera 11.1 to 12.0 */
-    background: -o-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+    background: -o-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
     /* For Fx 3.6 to 15 */
-    background: -moz-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+    background: -moz-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
     /* Standard syntax */
     /*background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);*/
-    background: linear-gradient(to right, rgb(0, 92, 172),rgb(248, 199, 19), rgb(243, 0, 10));
+    background: linear-gradient(to right, rgb(0, 92, 172), rgb(248, 199, 19), rgb(243, 0, 10));
 }
 
 /* Next & previous buttons */
@@ -81,7 +89,7 @@
     margin-top: -22px;
 
     color: white;
-    background-color: rgba(22,22,22,.55);
+    background-color: rgba(22, 22, 22, .55);
     border: 1px solid white;
     font-weight: bold;
     font-size: 18px;
@@ -90,94 +98,149 @@
 }
 
 /* Position the "next button" to the right */
-.next{
+.next {
     right: 0;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
-.imagenes{
+.imagenes {
     position: relative;
 }
 
-.bor{
+.bor {
     border: 1px solid red;
 }
-.marr{
+
+.marr {
     margin-right: 5rem;
     padding-right: 5rem;
 }
 
-.img3{
-    background-color: rgba(247,247,247,1);
+.img3 {
+    background-color: rgba(247, 247, 247, 1);
     padding-left: 5em;
     padding-right: 5em;
     /*height: 16em;*/
 }
-.imc{
+
+.imc {
     /*border: 1px solid black;*/
-    text-align:center;
+    text-align: center;
     display: inline-block;
     vertical-align: middle;
     padding: 2em;
 }
 
-.centro{
-    background-color: rgba(61, 77, 89,1);
-    color: rgba(247,247,247,1);
+.centro {
+    background-color: rgba(61, 77, 89, 1);
+    color: rgba(247, 247, 247, 1);
 }
-.textocentro{
-    width: 70%;
+
+.textocentro {
+    width: 60%;
     padding: 2em;
     margin: 0 auto;
-    margin-top: 5em;
+    margin-top: 9em;
     margin-bottom: 3.6em;
-    border:2px solid rgba(247,247,247,1);
+    border:5px solid rgba(247,247,247,1);
+    border:6px solid transparent;
+
+    /*-webkit-border-image: url(borde1.png) 30 round; !* Safari 3.1-5 *!*/
+    /*-o-border-image: url(borde1.png) 30 round; !* Opera 11-12.1 *!*/
+    border-image: url(borde1.png) 30 round;
 }
 
-.resumenes{
-    padding: 2em 10em;
+.escarapela{
+    margin-top: -9em;
+    text-align: center;
+    border: 1px solid red;
+    background-image: url("5e.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 7em;
+    height: 10em;
+    /*width: 15em;*/
 }
 
-.resu{
+.resumenes {
+    padding: 2em 20em;
+}
+
+.resu {
     text-align: justify;
     text-justify: inter-word;
     padding: 2em;
 
 }
-.tituloContacto{
-    text-align:center;
+
+.tituloContacto {
+    text-align: center;
     /*display: inline-block;*/
     /*vertical-align: middle;*/
     margin: 0 auto;
     padding: 1em;
 }
 
-.divContact{
+.divContact {
+
+    width: 60%;
+    margin: 0 auto;
     margin-bottom: 3em;
 }
-.formContacto{
-    width: 60%;
-    margin:0 auto;
+
+.formContacto {
+
 }
 
-.input-nombre{
+.mapa{
+    width: 100%;
+}
+
+.input-nombre {
     display: block;
     width: 100%;
     min-height: 28px;
     box-sizing: border-box;
 }
 
+.borde-forms{
+    border: .1em solid #4e616e ;
+}
 
+.btn-enviar{
+    padding: .36em 1.2em;
+    margin: 1.5em;
+    color: white;
+    background-color: rgb(49, 63, 74) ;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#4e616e, #101922); /* Standard syntax */
+    border: none;
+}
 
 .footer{
-    color: rgba(247,247,247,1);;
-    background-color: rgba(61, 77, 89,1);
-    text-align:center;
-    height: 6em;
+    color: rgba(247, 247, 247, 1);;
+    background-color: rgba(61, 77, 89, 1);
+    text-align: center;
+    border: 0.01px solid transparent;
+    /*height: 6em;*/
+}
 
+.footer-in{
+    margin: 1.6em 13em;
+    border: 2px solid red;
 
+}
+.info-contacto{
+    text-align: left;
+}
+.derechos-res{
+    padding-top: 3.6em;
+    text-align: right;
 }
