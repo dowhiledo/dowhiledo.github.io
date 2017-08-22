@@ -272,16 +272,19 @@
 }
 
 .footer-flecha-up{
-    /*margin-top: -2em;*/
-    /*text-align: center;*/
-    /*border: 1px solid red;*/
-    /*background-image: url("flecha-azul.png");*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: center;*/
-    /*background-size: 7em;*/
-    /*height: 10em;*/
-    /*z-index: 12323;*/
+    transform: rotate(90deg);
 
+    margin: 0 auto;
+    margin-top: -2.5em;
+    text-align: center;
+    background-image: url("flecha-azul.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-size: 17em;*/
+    height: 6em;
+    width: 6em;
+    /*font-size: 2em;*/
+    border: 0.1px solid transparent;
 }
 
 
@@ -298,4 +301,23 @@
 .derechos-res{
     padding-top: 4em;
     text-align: right;
+}
+
+.ico-fb{
+    background-image: url("facebook16.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 1em;
+    /*width: 4em;*/
+    padding-left: 20px; /* Or size of icon + spacing */
+
+}
+
+.ico-ws{
+    background-image: url("wasap16.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 1em;
+    /*width: 4em;*/
+    padding-left: 16px; /* Or size of icon + spacing */
 }
