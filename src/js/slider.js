@@ -19,5 +19,5 @@ function showDivs(n) {
 
 function autoSlide(){
     plusDivs(1);
-    setTimeout(autoSlide,2800);
+    setTimeout(autoSlide,3200);
 }
