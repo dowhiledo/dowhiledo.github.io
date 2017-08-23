@@ -2,6 +2,9 @@
     z-index: 2;
 }
 
+.color-233{
+    background-color: rgba(233,233,233,1);
+}
 .header-out {
     background: url("kb.png");
     width: 100%;
@@ -14,8 +17,8 @@
 
 .header- {
     /*border: 1px solid blue;*/
-    width: inherit;
-    height: inherit;
+    /*width: inherit;*/
+    /*height: inherit;*/
     /*background: red; !* For browsers that do not support gradients *!*/
     /*!* For Safari 5.1 to 6.0 *!*/
     /*background: -webkit-linear-gradient(left,rgb(233, 233, 233),orange,transparent,green,blue,indigo,violet);*/
@@ -65,7 +68,7 @@
 
 .barra-larga {
     height: .57em;
-    width: 100%;
+    /*width: 100%;*/
     background: red; /* For browsers that do not support gradients */
     /* For Safari 5.1 to 6.0 */
     background: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
@@ -121,7 +124,7 @@
 }
 
 .img3 {
-    background-color: rgba(247, 247, 247, 1);
+    /*background-color: rgba(247, 247, 247, 1);*/
     padding-left: 5em;
     padding-right: 5em;
     /*height: 16em;*/
@@ -147,12 +150,12 @@
     margin: 0 auto;
     margin-top: 9em;
     margin-bottom: 3.6em;
-    border:5px solid rgba(247,247,247,1);
-    border:11px solid transparent;
+    /*border:5px solid rgba(247,247,247,1);*/
+    border:7px solid transparent;
 
     /*-webkit-border-image: url(borde1.png) 30 round; !* Safari 3.1-5 *!*/
     /*-o-border-image: url(borde1.png) 30 round; !* Opera 11-12.1 *!*/
-    border-image: url(borde2c.png) 20% stretch;
+    border-image: url(borde2c.png) 15% stretch;
 }
 
 .escarapela{
@@ -189,7 +192,7 @@
 }
 
 .head-resu-flechita{
-    width: .95em;
+    width: 1.35em;
     display: block;
     text-align: center;
     margin: 0 auto;
@@ -197,7 +200,7 @@
 
 
 .resumenes {
-    padding: 2em 20em;
+    /*padding: 2em 20em;*/
 }
 
 .resu {
@@ -239,6 +242,7 @@
 
 .borde-forms{
     border: .1em solid #4e616e ;
+    background-color: transparent;
 }
 
 .btn-enviar{
@@ -271,6 +275,22 @@
     position: absolute;
 }
 
+.flechita-abajo-centro{
+    transform: rotate(-90deg);
+
+    margin: 0 auto;
+    margin-top: -2.5em;
+    text-align: center;
+    background-image: url("flecha-azul.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-size: 17em;*/
+    height: 6em;
+    width: 6em;
+    /*font-size: 2em;*/
+    border: 0.1px solid transparent;
+}
+
 .footer-flecha-up{
     transform: rotate(90deg);
 
@@ -290,7 +310,7 @@
 
 
 .footer-in{
-    margin: .6em 13em;
+    /*margin: .6em 13em;*/
     /*border: 2px solid red;*/
 
 }
@@ -320,4 +340,8 @@
     background-size: 1em;
     /*width: 4em;*/
     padding-left: 16px; /* Or size of icon + spacing */
+}
+
+*{
+    /*border:1px solid blue;*/
 }

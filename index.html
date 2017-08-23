@@ -7,19 +7,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body class="">
+<body class="container-fluid">
 
-<div class="header-outt">
-    <div class="header-">
+<div class="row header-outt color-233">
+    <div class="header- col-sm-12">
         <!--<span class="logo">-->
         <!--</span>-->
-        <div class="">
+        <div class="row">
 
             <!--<div class="col-3">-->
             <!--<a class="navbar-brand" href="#"></a>-->
             <!--</div>-->
             <!--<nav class="navbar navbar-toggleable-md navbar-light bg-faded adelante">-->
-            <nav class="navbar navbar-toggleable-md navbar-light bg-faded adelante">
+            <nav class="col-sm-12 navbar navbar-toggleable-md navbar-light bg-faded adelante">
 
                 <!--<a class="navbar-brand logo" href="#"></a>-->
 
@@ -75,13 +75,12 @@
     </div>
 
 </div>
-</div>
 
 <!--imagenes-->
 <!--<div class="barra-larga"></div>-->
 
 
-<div class="imagenes">
+<div class="row imagenes">
     <img class="mySlides" src="src/css/a1.jpg" style="width:100%">
     <img class="mySlides" src="src/css/a2.jpg" style="width:100%">
     <img class="mySlides" src="src/css/a3.jpg" style="width:100%">
@@ -91,8 +90,8 @@
 </div>
 
 <!--3 IMG-->
-<div class="img3 row">
-    <div class="col-sm-4 imc"><img src="src/css/electri.jpg" alt=""></div>
+<div class="row img3 color-233">
+    <div class="imc col-sm-4"><img src="src/css/electri.jpg" alt=""></div>
     <div class="imc col-sm-4"><img src="src/css/prociv.jpg" alt=""></div>
     <div class="imc col-sm-4"><img src="src/css/clima.jpg" alt=""></div>
 </div>
@@ -100,13 +99,21 @@
 
 <!--centro-->
 <div class="row centro">
-    <!--<img src="src/css/5e.png" alt="">-->
+    <!--<div class="row">-->
+    <!--<a class="flechita-abajo-centro" href="#izq"></a>-->
+    <!--</div>-->
+
+
+    <!--<div class="col-sm-12 barra-larga">asdfasdfasdf-->
+        <a class="col-sm-12 flechita-abajo-centro" href="#escarapelaa"></a>
+    <!--</div>-->
 
 
     <div class="textocentro">
-        <div class="escarapela"></div>
+        <div class="escarapela" id="escarapelaa"></div>
         <p>
-            ELECTROMECÁNICOS DEL PERÚ S.A.C. cuenta con un staff de profesionales altamente calificados con experiencia
+            <span style="font-weight: 700">ELECTROMECÁNICOS DEL PERÚ S.A.C.</span>
+            cuenta con un staff de profesionales altamente calificados con experiencia
             para las más exigentes empresas brindándoles altos estándares de calidad y la completa satisfacción de
             nuestros clientes.
         </p>
@@ -131,109 +138,128 @@
 
     </div>
 
-    <div class="row resumenes">
-        <div class="col-sm-4 resu">
+    <div class="col-sm-9 resumenes d-block mx-auto">
+        <div class="row">
+            <div class="col-sm-4 resu">
 
-            <img src="src/css/logorojo.png" class="head-resu-logo" alt="">
-            <span class="head-resu-titulo">ELECTRIFICACIONES</span>
-            <img src="src/css/flecha-abajo-rojo.png" class="head-resu-flechita" alt="">
+                <img src="src/css/logorojo.png" class="head-resu-logo" alt="">
+                <span class="head-resu-titulo">ELECTRIFICACIONES</span>
+                <img src="src/css/flecha-abajo-rojo.png" class="head-resu-flechita" alt="">
 
-            <br>Realizamos instalaciones eléctricas, tanto sencillas como las de mayor complejidad. Edificios y espacios de pública concurrencia, espacios privados y recintos especiales. Especialistas en instalaciones técnicamente complejas y en Grupos Electrógenos (sistemas de emergencia para garantizar el suministro eléctrico ante fallos de red).
-            <br>Hacemos trabajos en Alta y Baja Tensión.
-            <br>Instalaciones interiores de edificios, redes de alumbrado público, centros de transformación, cualquier tipo de líneas eléctricas.
+                <br>Realizamos instalaciones eléctricas, tanto sencillas como las de mayor complejidad. Edificios y
+                espacios de pública concurrencia, espacios privados y recintos especiales. Especialistas en
+                instalaciones técnicamente complejas y en Grupos Electrógenos (sistemas de emergencia para garantizar el
+                suministro eléctrico ante fallos de red).
+                <br>Hacemos trabajos en Alta y Baja Tensión.
+                <br>Instalaciones interiores de edificios, redes de alumbrado público, centros de transformación,
+                cualquier tipo de líneas eléctricas.
+            </div>
+            <div class="col-sm-4 resu">
+
+                <img src="src/css/logoamarillo.png" class="head-resu-logo" alt="">
+                <span class="head-resu-titulo">PROYECTOS CIVILES</span>
+                <img src="src/css/flecha-abajo-amarillo.png" class="head-resu-flechita" alt="">
+
+                <br>Realizamos cálculo, diseño, propuestas técnicas, soluciones alternativas, proyectos y control de
+                ejecución en las instalaciones que desarrollamos.
+                <br>Ofrecemos una gama de servicios para diseñar las instalaciones cumpliendo las necesidades y
+                requisitos de nuestros clientes.
+                <br>Adaptación de instalaciones a los usos previstos.
+                <br>Cumplimiento de la normativa técnica legal vigente.
+                <br>Optimización de los sistemas desde el punto de vista energético.
+            </div>
+            <div class="col-sm-4 resu">
+
+                <img src="src/css/logoazul.png" class="head-resu-logo" alt="">
+                <span class="head-resu-titulo">CLIMATIZACIÓN</span>
+                <img src="src/css/flecha-abajo-azul.png" class="head-resu-flechita" alt="">
+
+                <br>Realizamos instalaciones eléctricas, tanto sencillas como las de mayor complejidad, Industrial,
+                Comercial y Residencial.
+                <br>Nuestra especialidad: Hoteles, comercios, centros hospitalarios centros de enseñanza, aeropuertos,
+                edificios industriales.
+                <br>Hacemos climatización con control de humedad, sistemas de expansión directa y agua, redes de gases
+                refrigerantes, ventilación, calefacción, controles integrales de sistemas para garantizar alta
+                eficiencia.
+            </div>
         </div>
-        <div class="col-sm-4 resu">
+        <a href="#contacto">
+        <img src="src/css/flecha-abajo-blanca.png" class="row d-block mx-auto my-5" style="width: 1.5em" alt="">
+        </a>
 
-            <img src="src/css/logoamarillo.png" class="head-resu-logo" alt="">
-            <span class="head-resu-titulo">PROYECTOS CIVILES</span>
-            <img src="src/css/flecha-abajo-amarillo.png" class="head-resu-flechita" alt="">
-
-            <br>Realizamos cálculo, diseño, propuestas técnicas, soluciones alternativas, proyectos y control de ejecución en las instalaciones que desarrollamos.
-            <br>Ofrecemos una gama de servicios para diseñar las instalaciones cumpliendo las necesidades y requisitos de nuestros clientes.
-            <br>Adaptación de instalaciones a los usos previstos.
-            <br>Cumplimiento de la normativa técnica legal vigente.
-            <br>Optimización de los sistemas desde el punto de vista energético.
-        </div>
-        <div class="col-sm-4 resu">
-
-            <img src="src/css/logoazul.png" class="head-resu-logo" alt="">
-            <span class="head-resu-titulo">CLIMATIZACIÓN</span>
-            <img src="src/css/flecha-abajo-azul.png" class="head-resu-flechita" alt="">
-
-            <br>Realizamos instalaciones eléctricas, tanto sencillas como las de mayor complejidad, Industrial, Comercial y Residencial.
-            <br>Nuestra especialidad: Hoteles, comercios, centros hospitalarios centros de enseñanza, aeropuertos, edificios industriales.
-            <br>Hacemos climatización con control de humedad, sistemas de expansión directa y agua, redes de gases refrigerantes, ventilación, calefacción, controles integrales de sistemas para garantizar alta eficiencia.
-        </div>
     </div>
 </div>
 
 
 <!--CONTACTO-->
-<div class="divContact">
-    <h4 class="tituloContacto">CONTACTO</h4>
+<div class="row pb-5 color-233" id="contacto">
+    <div class="col-sm-8 d-block mx-auto">
+        <h4 class="col-sm-12 tituloContacto">CONTACTO</h4>
 
-    <form action="" class="formContacto">
+        <form action="" class="formContacto">
 
-        <div class="row my-2">
+            <div class="row my-2">
 
-            <!--NOMBRE-->
-            <div class="col-sm-6">
-                <input type="text" class="form-control borde-forms" placeholder="NOMBRE">
+                <!--NOMBRE-->
+                <div class="col-sm-6">
+                    <input type="text" class="form-control borde-forms" placeholder="NOMBRE">
+                </div>
+
+                <!--APELLIDOS-->
+                <div class="col-sm-6">
+                    <input type="text" class="form-control borde-forms" placeholder="APELLIDOS">
+                </div>
             </div>
 
-            <!--APELLIDOS-->
-            <div class="col-sm-6">
-                <input type="text" class="form-control borde-forms" placeholder="APELLIDOS">
-            </div>
-        </div>
+
+            <div class="row my-2">
 
 
-        <div class="row my-2">
+                <!--COMPAÑÍA-->
+                <div class="col-sm-6">
+                    <input type="text" class="form-control borde-forms" placeholder="COMPAÑÍA">
+                </div>
 
-
-            <!--COMPAÑÍA-->
-            <div class="col-sm-6">
-                <input type="text" class="form-control borde-forms" placeholder="COMPAÑÍA">
-            </div>
-
-            <!--EMAIL-->
-            <div class="col-sm-6">
-                <input type="text" class="form-control borde-forms" placeholder="EMAIL">
-            </div>
-        </div>
-
-
-        <div class="row my-2">
-
-
-            <!--TELÉFONO-->
-            <div class="col-sm-6">
-                <input type="text" class="form-control borde-forms" placeholder="TELÉFONO">
+                <!--EMAIL-->
+                <div class="col-sm-6">
+                    <input type="text" class="form-control borde-forms" placeholder="EMAIL">
+                </div>
             </div>
 
-            <!--CELULAR-->
-            <div class="col-sm-6">
-                <input type="text" class="form-control borde-forms" placeholder="CELULAR">
-            </div>
-        </div>
 
-        <div class="row my-2">
-            <!--MENSAJE-->
-            <div class="col-sm-12">
-                <textarea name="" id="" cols="30" rows="10" class="form-control borde-forms" ></textarea>
-                <!--<input type="text" class="form-control" placeholder="TELÉFONO">-->
-            </div>
-        </div>
+            <div class="row my-2">
 
-        <!--boton enviar-->
-        <div class="row my-2">
-            <div class="col-sm-12 text-center">
-                <input type="submit" class="btn-enviar borde-forms" value="ENVIAR">
-            </div>
-        </div>
-    </form>
 
-    <img src="src/css/mapa.jpg" class="mapa" alt="">
+                <!--TELÉFONO-->
+                <div class="col-sm-6">
+                    <input type="text" class="form-control borde-forms" placeholder="TELÉFONO">
+                </div>
+
+                <!--CELULAR-->
+                <div class="col-sm-6">
+                    <input type="text" class="form-control borde-forms" placeholder="CELULAR">
+                </div>
+            </div>
+
+            <div class="row my-2">
+                <!--MENSAJE-->
+                <div class="col-sm-12">
+                    <textarea name="" id="" cols="30" rows="10" class="form-control borde-forms"
+                              placeholder="MENSAJE"></textarea>
+                    <!--<input type="text" class="form-control" placeholder="TELÉFONO">-->
+                </div>
+            </div>
+
+            <!--boton enviar-->
+            <div class="row my-2">
+                <div class="col-sm-12 text-center">
+                    <input type="submit" class="btn-enviar borde-forms" value="ENVIAR">
+                </div>
+            </div>
+        </form>
+
+        <img src="src/css/mapa.jpg" class="mapa mb-3" alt="">
+    </div>
 </div>
 
 
@@ -243,27 +269,29 @@
 </div>
 
 
-<div class="footer">
-    <div class="row footer-in">
-        <div class="col-sm-1">
-            <img src="src/css/logo-bajo.png" style="width: 5em" alt="">
-        </div>
+<div class="row footer">
+    <div class="col-sm-10 d-block mx-auto">
+        <div class="row">
+            <div class="col-sm-1">
+                <img src="src/css/logo-bajo.png" style="width: 5em" alt="">
+            </div>
 
-        <div class="col-sm-5 info-contacto">
-            <address>
-                Urb. Los Cedros Mz C Lt 12A - Trujillo <br>
-                Oficina: 044-665347 <br>
-                contacta@electromecanicos.com <br>
-            </address>
-        </div>
+            <div class="col-sm-5 info-contacto">
+                <address>
+                    Urb. Los Cedros Mz C Lt 12A - Trujillo <br>
+                    Oficina: 044-665347 <br>
+                    contacto@electromecanicos.com <br>
+                </address>
+            </div>
 
 
-        <div class="col-sm-6 derechos-res">
-            <span style="font-weight: 100">Todos los derechos reservados</span>
-            <span style="font-weight: 500"> ©Electromecánicos del Perú 2017
+            <div class="col-sm-6 derechos-res">
+                <span style="font-weight: 100">Todos los derechos reservados</span>
+                <span style="font-weight: 500"> ©Electromecánicos del Perú 2017
             <i class="ico-fb"></i>
             <i class="ico-ws"></i>
             </span>
+            </div>
         </div>
     </div>
 </div>
