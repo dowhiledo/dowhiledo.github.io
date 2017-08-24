@@ -1,32 +1,366 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 </head>
-<body>
+<body class="container-fluid">
 
-<div class="container-fluid"></div>
-<button class="btn btn-primary">hola</button>
-<div class="row">
-    <div class="col-sm-2">LOGO ELECTRIFICACIONES</div>
-    <div class="col-sm-10">
-        <strong>EDIFICIONES Y ESPACIOS DE PÚBLICA CONCURRENCIA</strong>
-        <br>Hoteles, comercios, centros hospitalarios y asistenciales, quirófanos, edificios de oficinas, centros de enseñanza, museos, estaciones de tren, aeropuertos, edificios industriales…
-        <br><strong>ESPACIOS PRIVADOS</strong>
-        <br>Desde sencillas instalaciones eléctricas hasta grandes soluciones complejas. Viviendas, comunidades de propietarios, locales comerciales…
-        <br><strong>RECINTOS ESPECIALES</strong>
-        <br>Somos expertos en instalaciones en Recintos Especiales: Antideflagrantes, Locales Mojados…
-        <br>Somos muy especialistas en instalaciones técnicamente complejas y en Grupos Electrógenos(sistemas de emergencia para garantizar el suministro eléctrico ante fallos de red).
-        <br>Hacemos trabajos en Alta y Baja Tensión. Instalaciones interiores de edificios, redes de alumbrado público, centros de transformación, cualquier tipo de líneas eléctricas.
+<div class="row header-outt color-233" id="main-home">
+    <div class="header- col-md-12">
+        <!--<span class="logo">-->
+        <!--</span>-->
+        <div class="row">
+
+            <!--<div class="col-3">-->
+            <!--<a class="navbar-brand" href="#"></a>-->
+            <!--</div>-->
+            <!--<nav class="navbar navbar-toggleable-md navbar-light bg-faded adelante">-->
+            <nav class="col-md-12 navbar navbar-toggleable-md navbar-light bg-faded adelante">
+
+                <!--<a class="navbar-brand logo" href="#"></a>-->
+
+
+                <a class="navbar-brand pl-5" href="#">
+                    <img src="src/css/logo-electromecanicos.png" class="logo">
+                </a>
+
+
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                        data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto mt-2 mt-md-0">
+
+                        <li class="nav-item active mr-auto">
+                            <a class="nav-link px-1" href="index.html">INICIO<span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link px-1" href="servicios.html">SERVICIOS</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link px-1" href="proyectos.html">PROYECTOS</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link px-1" href="#">OBRAS</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link px-1" href="#">NOTICIAS</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link px-1" href="#">CONTACTOS</a>
+                        </li>
+
+
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Buscar">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
     </div>
 
 </div>
 
+<!--imagenes-->
+<!--<div class="barra-larga"></div>-->
+
+<div class="row imagenes">
+    <div>
+        <img class="img-fluid mySlides" src="src/css/a1.jpg">
+        <img class="img-fluid mySlides" src="src/css/a2.jpg">
+        <img class="img-fluid mySlides" src="src/css/a3.jpg">
+    </div>
+
+    <button id="izq" class="prev" onclick="plusDivs(-1)">&#10094;</button>
+    <button id="der" class="next" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<!--3 IMG-->
+<div class="row color-233 py-5">
+    <div class="col-md-10 d-block mx-auto">
+        <div class="row">
+            <div class="col-md-4"><img src="src/css/electri.jpg" class="img-fluid d-block mx-auto" alt="" onclick="verAzul()"></div>
+            <div class="col-md-4"><img src="src/css/prociv.jpg" class="img-fluid d-block mx-auto" alt=""></div>
+            <div class="col-md-4"><img src="src/css/clima.jpg" class="img-fluid d-block mx-auto" alt=""></div>
+        </div>
+    </div>
+</div>
 
 
-<div class="row">
+<!--centro-->
+<div class="row centro pb-5">
 
+    <!--flecha hacia el centro abajo-->
+    <div class="col-md-9 d-block mx-auto">
+        <div class="row">
+            <a class="flechita-abajo-centro" href="#escarap"></a>
+        </div>
+    </div>
+
+    <div class="col-md-9 d-block mx-auto" id="servicio-electrificaciones">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="src/css/logorojo.png" class="img-fluid head-resu-logo" alt="">
+                <span class="head-resu-titulo">ELECTRIFICACIONES</span>
+            </div>
+            <div class="col-md-8 aument-font">
+                <p>
+                    Hoteles, comercios, centros hospitalarios y asistenciales, quirófanos, edificios de oficinas, centros de enseñanza, museos, estaciones de tren, aeropuertos, edificios industriales…
+                </p>
+                <p>
+                    ESPACIOS PRIVADOS
+                    <br>
+                    Desde sencillas instalaciones eléctricas hasta grandes soluciones complejas. Viviendas, comunidades de propietarios, locales comerciales…
+
+                </p>
+                RECINTOS ESPECIALES
+                <br>
+                <p>Somos expertos en instalaciones en Recintos Especiales: Antideflagrantes, Locales Mojados…
+                </p>
+                <p>Somos muy especialistas en instalaciones técnicamente complejas y en Grupos Electrógenos(sistemas de emergencia para garantizar el suministro eléctrico ante fallos de red).</p>
+                <p>Hacemos trabajos en Alta y Baja Tensión. Instalaciones interiores de edificios, redes de alumbrado público, centros de transformación, cualquier tipo de líneas eléctricas.</p>
+            </div>
+        </div>
+
+        <div class="row py-5">
+            <div class="col-md-12 d-block mx-auto">
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <img src="src/css/foto-roja-grupos-electrogeno.png" class="img-fluid d-block mx-auto" alt="">
+                        <p class="text-center pb-2">
+                            <br>Instalación de Grupos
+                            <br>Mantenimiento de Grupos
+                            <br>Conmutaciones Automáticas
+                        </p>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <img src="src/css/foto-roja-baja-media-tension.png" class="img-fluid d-block mx-auto" alt="">
+                        <p class="text-center pb-2">
+                            <br>Instalaciones Interiores
+                            <br>Proyectistas de Distribuciones
+                            <br>Eléctricas, Análisis de Redes
+                            <br>Cuadros de distribución
+                            <br>Baterías de Condensadores
+                            <br>Líneas
+                            <br>Centros de Transformación
+                            <br>Líneas Aéreas
+                            <br>Líneas Subterráneas
+                        </p>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <img src="src/css/foto-roja-energia-solar.png" class="img-fluid d-block mx-auto" alt="">
+                        <p class="text-center pb-2">
+                            <br>Térmica
+                            <br>Fotovoltaica
+                            <br>Cogeneración
+                            <br>Biomasa
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="col-md-9 d-block mx-auto" id="servicio-proyectosciviles">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="src/css/logoamarillo.png" class="img-fluid head-resu-logo" alt="">
+                <span class="head-resu-titulo">PROYECTOS CIVILES</span>
+            </div>
+            <div class="col-md-8 aument-font">
+                <p>
+                    A través de nuestro staff de ingeniería ofrecemos una gama de servicios para diseñar las
+                    instalaciones cumpliendo las necesidades y requisitos de nuestros clientes y sus edificios, velando
+                    por:
+                </p>
+                <p>
+                <ul>
+                    <li>Adaptación de instalaciones a los usos previstos.</li>
+                    <li>Cumplimiento de la normativa técnica legal vigente</li>
+                    <li>Optimización de los sistemas desde el punto de vista energético.</li>
+                </ul>
+                </p>
+                <p>
+                    Realizamos cálculo, diseño, propuestas técnicas, soluciones alternativas, proyectos y control de ejecución en las instalaciones que desarrollamos.
+                </p>
+            </div>
+        </div>
+
+        <div class="row py-5">
+            <div class="col-md-12 d-block mx-auto">
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <img src="src/css/foto-ama-proyectos-tecnicos.png" class="img-fluid d-block mx-auto" alt="">
+                        <p class="text-center pb-2">
+                            <br>Estudios
+                            <br>Soluciones
+                            <br>Cálculo
+                            <br>Dimensionado
+                            <br>Proyectos
+                            <br>Legalizaciones
+                        </p>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <img src="src/css/foto-ama-direccion-obral.png" class="img-fluid d-block mx-auto" alt="">
+                        <p class="text-center pb-2">
+                            <br>Control de materiales
+                            <br>Control de ejecución de obra
+                            <br>Control de instalación terminada
+                            <br>Certificaciones de obra
+                            <br>Pruebas de servicio
+                        </p>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <img src="src/css/foto-ama-sistemas-drywall.png" class="img-fluid d-block mx-auto" alt="">
+                        <p class="text-center pb-2">
+                            <br>Fachadas, Divisiones
+                            <br>Paredes, Vigas
+                            <br>Cielos raso
+                            <br>Falso cielo raso con baldosas
+                            <br>Salones, Discotecas, Spa
+                            <br>Centros Comerciales
+                            <br>Casa, Departamentos, etc
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-md-9 d-block mx-auto" id="servicio-clima">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="src/css/logoazul.png" class="img-fluid head-resu-logo" alt="">
+                <span class="head-resu-titulo">CLIMATIZACIÓN</span>
+            </div>
+            <div class="col-md-8 aument-font">
+                <p>
+                    Realizamos instalaciones de climatización, tanto sencillas como las de mayor complejidad.
+                    Industrial, Comercial y Residencial
+                </p>
+                <p>
+                    Es nuestra especialidad. Hoteles, comercios, centros hospitalarios, centros de enseñanza,
+                    aeropuertos, edificios industriales…
+                </p>
+                <p>
+
+                    Somos especialistas en instalaciones técnicamente complejas y de optimización de eficiencia
+                    energética.
+                </p>
+                <p>
+                    Hacemos climatización con control de humedad, sistemas de expansión directa y agua, redes de
+                    gases refrigerantes, ventilación, calefacción, controles integrantes de sistemas para garantizar
+                    alta eficiencia.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="row py-5">
+            <div class="col-md-12 d-block mx-auto">
+                <div class="row">
+
+
+                    <div class="col-md-4">
+                        <img src="src/css/foto-azul-aireacondicionado.png" class="img-fluid d-block mx-auto" alt="">
+                        <p class="text-center pb-2">
+                            <br>Expansión Directa
+                            <br>Climatización por Agua
+                            <br>Sistemas VRF
+                            <br>Tratamiento de Aire
+                            <br>Zonificación
+                        </p>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <img src="src/css/foto-azul-ventilacion.png" class="img-fluid d-block mx-auto" alt="">
+                        <p class="text-center pb-2">
+                            <br>Sistemas de Ventilación
+                            <br>Recuperación de Calor
+                            <br>Extracción Industrial
+                        </p>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <img src="src/css/foto-azul-refrigeracion.png" class="img-fluid d-block mx-auto" alt="">
+                        <p class="text-center pb-2">
+                            <br>Cámaras frigoríficas
+                            <br>Central de frio Rack de compresores
+                            <br>Congeladores y conservadoras
+                            <br>Compresores herméticos y semiherméticos
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+<!--linea gruesa con degradado   y  FOOTER -->
+<div class="row barra-larga">
+    <a class="footer-flecha-up" href="#main-home"></a>
+</div>
+
+
+<div class="row footer">
+
+    <div class="col-md-10 d-block mx-auto">
+        <div class="row">
+            <div class="col-md-1">
+                <img src="src/css/logo-bajo.png" style="width: 5em" alt="">
+            </div>
+
+            <div class="col-md-5 info-contacto">
+                <address>
+                    Urb. Los Cedros Mz C Lt 12A - Trujillo <br>
+                    Oficina: 044-665347 <br>
+                    contacto@electromecanicos.com <br>
+                </address>
+            </div>
+
+
+            <div class="col-md-6 derechos-res">
+                <span style="font-weight: 100">Todos los derechos reservados</span>
+                <span style="font-weight: 500"> ©Electromecánicos del Perú 2017
+            <i class="ico-fb"></i>
+            <i class="ico-ws"></i>
+            </span>
+            </div>
+        </div>
+    </div>
 </div>
 
 
@@ -38,7 +372,9 @@
 <link rel="stylesheet" href="src/font-awesome/css/font-awesome.min.css">
 
 <link rel="stylesheet" href="src/css/fondo.css">
+<link rel="stylesheet" href="src/css/servicios.css">
 <link rel="stylesheet" href="src/css/media.css">
 <script src="src/js/slider.js"></script>
+
 </body>
 </html>

@@ -33,9 +33,9 @@
 }
 
 .logo {
-    width: 17em;
-    border: 3px solid green;
-    border: none;
+    width: 12.3em;
+    /*border: 3px solid green;*/
+    /*border: none;*/
 
 }
 
@@ -133,9 +133,15 @@
 .imc {
     /*border: 1px solid black;*/
     text-align: center;
-    display: inline-block;
+    /*display: inline-block;*/
     vertical-align: middle;
     padding: 2em;
+    /*width: 5em;*/
+}
+
+.ps3{
+    /*font-size: 22em;*/
+    /*width: 10em;*/
 }
 
 .centro {
@@ -206,16 +212,19 @@
 .resu {
     text-align: justify;
     text-justify: inter-word;
-    padding: 2em;
+    /*padding: 2em;*/
 
 }
 
 .tituloContacto {
+    color: rgb(61,77,89);
     text-align: center;
+    font-size: 3em;
+    font-weight: 200;
     /*display: inline-block;*/
     /*vertical-align: middle;*/
     margin: 0 auto;
-    padding: 1em;
+    padding: .6em;
 }
 
 .divContact {
@@ -242,7 +251,15 @@
 
 .borde-forms{
     border: .1em solid #4e616e ;
-    background-color: transparent;
+    border: .1em solid rgb(61,77,89) ;
+    background-color: rgb(233,233,233);
+    /*opacity: .8;*/
+}
+
+.borde-forms:focus{
+    border: .1em solid #4e616e ;
+    background-color: rgb(244,244,244);
+    /*opacity: .8;*/
 }
 
 .btn-enviar{
@@ -262,6 +279,8 @@
     color: rgba(247, 247, 247, 1);;
     background-color: rgba(61, 77, 89, 1);
     text-align: center;
+    padding-top: .3em;
+    padding-bottom: .3em;
     border: 0.01px solid transparent;
     /*height: 6em;*/
 }
@@ -285,10 +304,8 @@
     background-repeat: no-repeat;
     background-position: center;
     /*background-size: 17em;*/
-    height: 6em;
-    width: 6em;
-    /*font-size: 2em;*/
-    border: 0.1px solid transparent;
+    height: 5.5em;
+    width: 5.5em;
 }
 
 .footer-flecha-up{
@@ -301,8 +318,8 @@
     background-repeat: no-repeat;
     background-position: center;
     /*background-size: 17em;*/
-    height: 6em;
-    width: 6em;
+    height: 5.6em;
+    width: 5.6em;
     /*font-size: 2em;*/
     border: 0.1px solid transparent;
 }
