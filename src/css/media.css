@@ -1,7 +1,7 @@
 @media (max-width: 991px) {
 
     body{
-        background-color: #c9302c;
+        /*background-color: #c9302c;*/
     }
 
     .header- li a{
@@ -25,5 +25,16 @@
     .logo{
         /*width: 13.4em;*/
         /*border: 1px solid blue;*/
+    }
+}
+
+
+
+@media (max-width: 767px) {
+
+
+    .footer{
+        padding-top: 2.5em;
+        padding-bottom: .1em;
     }
 }
