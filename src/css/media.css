@@ -16,6 +16,7 @@
         border-bottom: none;
         border-image-slice: fill;
         border-image-repeat: round;
+        /*text-align: center;*/
         /*border-image-outset:10px 5px 15px 10px;*/
     }
 
@@ -37,4 +38,45 @@
         padding-top: 2.5em;
         padding-bottom: .1em;
     }
+
+    .div-logo{
+    }
+
+    .info-contacto{
+    }
+
+    .derechos-res{
+        padding-top: 1em;
+    }
+
+    .prev3{
+        /*margin: 0 auto;*/
+        /*margin-top: -2.5em;*/
+        /*text-align: center;*/
+        margin-top: 0;
+        margin-bottom: 0;
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position: center;
+        /*background-size: 17em;*/
+        height: 0;
+        width: 0;
+        /*border: 1px solid red;*/
+    }
+
+    .next3{
+        /*transform: rotate(180deg);*/
+        /*margin: 0 auto;*/
+        /*margin-top: -2.5em;*/
+        /*text-align: center;*/
+        margin-top: 0;
+        margin-bottom: 0;
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position: center;
+        /*background-size: 17em;*/
+        height: 0;
+        width: 0em;
+    }
+
 }

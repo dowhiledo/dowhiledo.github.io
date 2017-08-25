@@ -130,6 +130,31 @@
     /*height: 16em;*/
 }
 
+.prev3{
+    /*margin: 0 auto;*/
+    /*margin-top: -2.5em;*/
+    /*text-align: center;*/
+    background-image: url("flecha-blanca.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-size: 17em;*/
+    height: 5.5em;
+    width: 5.5em;
+    /*border: 1px solid red;*/
+}
+
+.next3{
+    transform: rotate(180deg);
+    /*margin: 0 auto;*/
+    /*margin-top: -2.5em;*/
+    /*text-align: center;*/
+    background-image: url("flecha-blanca.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-size: 17em;*/
+    height: 5.5em;
+    width: 5.5em;
+}
 .imc {
     /*border: 1px solid black;*/
     text-align: center;
