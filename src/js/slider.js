@@ -26,27 +26,79 @@ function autoSlide(){
 
 // --------------  PARA SERVICIOS
 
-var rojo= document.getElementById("servicio-electrificaciones");
-var ama= document.getElementById("servicio-proyectosciviles");
-var azul= document.getElementById("servicio-clima");
+// var rojo= document.getElementById("servicio-electrificaciones");
+// var ama= document.getElementById("servicio-proyectosciviles");
+// var azul= document.getElementById("servicio-clima");
+// rojo
 
-// rojo.style.display = "none";
+// rojo.style.display = "block";
 // ama.style.display = "none";
 // azul.style.display = "block";
 
 
 
-function verAzul(){
-
-    // var rojo= document.getElementById("servicio-electrificaciones");
-    // var ama= document.getElementById("servicio-proyectosciviles");
-    // var azul= document.getElementById("servicio-clima");
+function verRojo(){
+    var rojo= document.getElementById("servicio-electrificaciones");
+    var ama= document.getElementById("servicio-proyectosciviles");
+    var azul= document.getElementById("servicio-clima");
     //
-    // rojo.style.display = "none";
-    // rojo.style.visibility = "hidden";
-    // ama.style.display = "none";
-    // ama.style.visibility = "hidden";
-
-
+    rojo.style.display = "block";
+    ama.style.display = "none";
+    azul.style.display = "none";
+}
+function verAmarillo(){
+    var rojo= document.getElementById("servicio-electrificaciones");
+    var ama= document.getElementById("servicio-proyectosciviles");
+    var azul= document.getElementById("servicio-clima");
+    //
+    rojo.style.display = "none";
+    ama.style.display = "block";
+    azul.style.display = "none";
+}
+function verAzul(){
+    var rojo= document.getElementById("servicio-electrificaciones");
+    var ama= document.getElementById("servicio-proyectosciviles");
+    var azul= document.getElementById("servicio-clima");
+    //
+    rojo.style.display = "none";
+    ama.style.display = "none";
+    azul.style.display = "block";
 }
 
+// ---------------------------------------------------------------
+
+function iverRojo(){
+    var rojo= document.getElementById("servicio-electrificaciones");
+    var ama= document.getElementById("servicio-proyectosciviles");
+    var azul= document.getElementById("servicio-clima");
+    //
+    rojo.style.display = "block";
+    ama.style.display = "none";
+    azul.style.display = "none";
+}
+function iverAmarillo(){
+    var rojo= document.getElementById("servicio-electrificaciones");
+    var ama= document.getElementById("servicio-proyectosciviles");
+    var azul= document.getElementById("servicio-clima");
+    //
+    rojo.style.display = "none";
+    ama.style.display = "block";
+    azul.style.display = "none";
+}
+function iverAzul(){
+    alert("sfds");
+    var rojo= document.getElementById("servicio-electrificaciones");
+    var ama= document.getElementById("servicio-proyectosciviles");
+    var azul= document.getElementById("servicio-clima");
+    //
+    rojo.style.display = "none";
+    ama.style.display = "none";
+    azul.style.display = "block";
+    // window.location="servicios.html";
+}
+
+
+function facebook(){
+    // alert("fsad");
+    window.location="https://www.facebook.com/";
+}

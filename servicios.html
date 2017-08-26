@@ -10,6 +10,14 @@
 </head>
 <body class="container-fluid">
 
+
+
+<div id="fixedsocial" href="www.facebook.com" onclick="return false;">
+    <div class="facebookflat" href="www.faceboook.com" onclick="return false;"></div>
+    <!--<a      class="facebookflat" href="www.faceboook.com"></a>-->
+</div>
+
+
 <div class="row header-outt color-233" id="main-home">
     <div class="header- col-md-12">
         <!--<span class="logo">-->
@@ -25,7 +33,7 @@
                 <!--<a class="navbar-brand logo" href="#"></a>-->
 
 
-                <a class="navbar-brand pl-5" href="#">
+                <a class="navbar-brand" href="#">
                     <img src="src/css/logo-electromecanicos.png" class="logo">
                 </a>
 
@@ -49,7 +57,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link px-1" href="proyectos.html">PROYECTOS</a>
+                            <a class="nav-link px-1" href="#">PROYECTOS</a>
                         </li>
 
                         <li class="nav-item">
@@ -93,15 +101,30 @@
 
 <!--3 IMG-->
 <div class="row color-233 py-5">
-    <div class="col-md-10 d-block mx-auto">
+
+    <div class="col-md-12 d-block mx-auto">
+
         <div class="row">
-            <div class="col-md-4"><img src="src/css/electri.jpg" class="img-fluid my-1 d-block mx-auto" alt="" onclick="verAzul()"></div>
-            <div class="col-md-4"><img src="src/css/prociv.jpg" class="img-fluid my-1 d-block mx-auto" alt=""></div>
-            <div class="col-md-4"><img src="src/css/clima.jpg" class="img-fluid my-1 d-block mx-auto" alt=""></div>
+
+            <a class="offset-0 col-md-1 d-block mx-auto align-middle my-auto prev3" href=""></a>
+
+            <div class="col-10 col-md-10">
+                <div class="row">
+                    <div class="col-md-4"><img src="src/css/electri.jpg" onclick="verRojo()" class="img-fluid my-1 d-block mx-auto" alt="">
+                    </div>
+                    <div class="col-md-4"><img src="src/css/prociv.jpg" onclick="verAmarillo()" class="img-fluid my-1 d-block mx-auto" alt="">
+                    </div>
+                    <div class="col-md-4"><img src="src/css/clima.jpg" onclick="verAzul()" class="img-fluid my-1 d-block mx-auto" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <a class="img-fluid offset-0 col-md-1 d-block mx-auto  my-auto my-1 next3" href="#"></a>
+
         </div>
+
     </div>
 </div>
-
 
 <!--centro-->
 <div class="row centro pb-5">
@@ -109,7 +132,7 @@
     <!--flecha hacia el centro abajo-->
     <div class="col-md-9 d-block mx-auto">
         <div class="row">
-            <a class="flechita-abajo-centro" href="#escarap"></a>
+            <a class="flechita-abajo-centro" id="flechita-abajo-centro"href="#flechita-abajo-centro"></a>
         </div>
     </div>
 
@@ -185,7 +208,7 @@
 
 
     <!--   ARTICULO PROYECTOS CIVILES     -->
-    <div class="col-md-9 d-block mx-auto d-none" id="servicio-proyectosciviles">
+    <div class="col-md-9 mx-auto" id="servicio-proyectosciviles">
         <div class="row">
             <div class="col-md-4">
                 <img src="src/css/logoamarillo.png" class="img-fluid head-resu-logo" alt="">
@@ -257,7 +280,7 @@
     </div>
 
     <!--   ARTICULO CLIMATIZACIÓN     -->
-    <div class="col-md-9 d-block mx-auto d-none" id="servicio-clima">
+    <div class="col-md-9 mx-auto" id="servicio-clima">
         <div class="row">
             <div class="col-md-4">
                 <img src="src/css/logoazul.png" class="img-fluid head-resu-logo" alt="">

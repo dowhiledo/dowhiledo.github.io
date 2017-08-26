@@ -1,3 +1,48 @@
+#fixedsocial {
+    /*top:30%;*/
+    /*height:200px;*/
+    /*width:60px;*/
+    margin: -1em;
+    padding:0;
+    margin-top: 12%;
+    position:fixed;
+    z-index: 1000;
+
+    /*right: 0;*/
+}
+
+.facebookflat {
+    margin: 0;
+    padding:0;
+
+    background:url("facebook-flotante.jpg");
+    background-repeat: no-repeat;
+    /*height:50px;*/
+    /*width:50px;*/
+    transition:ease 500ms;
+    /*background-size:3em;*/
+    /*font-size: 1em;*/
+
+    width: 2em;
+    height: 8em;
+    /*opacity:1;*/
+}
+
+.facebookflat:hover {
+    /*background:url("facebook-flotante.jpg");*/
+    /*height:50px;*/
+    /*width:50px;*/
+    /*background-size:60px;*/
+    /*opacity:0.5;*/
+    transition:ease 500ms;
+    /*margin-left:-20px;*/
+    /*width:70px;*/
+
+}
+
+
+
+
 .adelante {
     z-index: 2;
 }
@@ -33,7 +78,9 @@
 }
 
 .logo {
+    margin-left: 2.2em;
     width: 12.3em;
+    /*padding-left: .1em;*/
     /*border: 3px solid green;*/
     /*border: none;*/
 
@@ -387,4 +434,9 @@
 
 *{
     /*border:1px solid blue;*/
+}
+
+/*ocultos*/
+#servicio-electrificaciones{
+    display: block;
 }

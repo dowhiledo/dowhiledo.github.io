@@ -32,8 +32,18 @@
 
 
 @media (max-width: 767px) {
+    .facebookflat {
+        margin: 0;
+        padding: 0;
 
+        background-image: none;
+    }
 
+    .logo{
+        width: 10em;
+        padding-left: 0;
+        margin-left: 0;
+    }
     .footer{
         padding-top: 2.5em;
         padding-bottom: .1em;
