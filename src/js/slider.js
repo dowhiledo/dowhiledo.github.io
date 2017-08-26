@@ -100,5 +100,5 @@ function iverAzul(){
 
 function facebook(){
     // alert("fsad");
-    window.location="https://www.facebook.com/";
+    window.location="https://www.facebook.com/Electromecanicos-del-Per%C3%BA-718878174985728/";
 }
