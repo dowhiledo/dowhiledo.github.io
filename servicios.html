@@ -11,10 +11,60 @@
 <body class="container-fluid">
 
 
+<div class="row floater">
 
-<div id="fixedsocial" onclick="facebook()">
-    <div class="facebookflat" onclick="facebook()"></div>
+    <div class="col-md-auto m-0 social-box-out">
+        <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com/Electromecanicos-del-Perú-718878174985728/&amp;width=350&amp;height=470&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=true&amp;header=true"
+                scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:350px ;height:470px;"
+                allowTransparency="true" class="social-box"></iframe>
+    </div>
+
+    <!-- icono facebook-->
+    <div class="m-0 p-0 col-md-auto" id="fixedsocial" onclick="facebook()">
+        <div class="p-0 mt-5 facebookflat" onclick="facebook()"></div>
+    </div>
+
 </div>
+
+
+<style>
+    .social-box-out{
+        background-color: rgba(50, 137, 217,1);
+        /*background-color: green;*/
+        padding: 9px 9px 3px 9px;
+        border-radius: 0.4em;
+        border: 1px solid rgb(44, 116, 186);;
+        /*border: 1px solid red;;*/
+        margin: 0;
+    }
+    .social-box{
+
+    }
+    .facebookflat {
+        background:url("src/css/facebook-flotante.jpg");
+        background-repeat: no-repeat;
+        transition:ease 500ms;
+        width: 2em;
+        height: 8em;
+    }
+
+    .floater{
+        z-index: 22;
+        position: fixed;
+        left: -358px;
+        top:20%;
+        margin-left: 0;
+        transition: 1s;
+    }
+    .floater:hover{
+        /*left: 370px;*/
+        left: 15px;
+        transition: 1s;
+
+    }
+
+
+</style>
 
 
 <div class="row header-outt color-233" id="main-home">
