@@ -2,6 +2,8 @@ var slideIndex = 1;
 showDivs(slideIndex);
 autoSlide();
 
+window.location.href = "http://stackoverflow.com"
+
 function plusDivs(n) {
     showDivs(slideIndex += n);
 }
