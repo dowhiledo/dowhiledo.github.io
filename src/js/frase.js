@@ -22,7 +22,6 @@ var lista = [];
 // lista.push(new frase("I would have been studying", "Habría estado estudiando", 0));
 
 
-
 //lista.push(new frase("I was a student", "Fui/era un estudiante", 0));
 lista.push(new frase("I have lost my purse", "Estuve/estaba estudiando", 0));
 lista.push(new frase("We have seen this movie already", "Seré un estudiante", 0));
@@ -37,6 +36,8 @@ lista.push(new frase("She has finished her chores", "Habré sido un estudiante",
 lista.push(new frase("Where have I left my sandals?", "Habré estado estudiando", 0));
 lista.push(new frase("Have you visited England?", "Habría sido un estudiante", 0));
 lista.push(new frase("Has she met John?", "Habría estado estudiando", 0));
+
+
 
 function aleatorio() {
     var min = 0;
@@ -80,7 +81,7 @@ $("#mostrarTexto").click(function () {
 
 });
 
- /* - - - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - - - */
 function frase(eng, spa, ndif) {
 
     this.eng = eng;
@@ -88,13 +89,22 @@ function frase(eng, spa, ndif) {
     this.ndif = ndif;
 }
 
-function sentencia(person, hh){
+function sentencia(person, hh) {
 
 }
 /* - - - - - - - - - - - - - - - - - - - - - - */
 var aleN = aleatorio();
 
+//
+// var texton;
+// texton = "Danc in ";
 
-var texton;
-texton = "Danc in ";
-
+// jQuery.get('/fichero.txt', function (result) {
+//     if (result == 'ON') {
+//         alert('ON');
+//     } else if (result == 'OFF') {
+//         alert('OFF');
+//     } else {
+//         alert(result);
+//     }
+// });
