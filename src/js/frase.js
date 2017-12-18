@@ -9,18 +9,17 @@ var lista = [];
 //lista.push(new frase("I was a student", "Fui/era un estudiante", 0));
 // lista.push(new frase("I was studying", "Estuve/estaba estudiando", 0));
 // lista.push(new frase("I will be a student", "Seré un estudiante", 0));
-// lista.push(new frase("I will be studying", "Estaré estudiando", 0));
-// lista.push(new frase("I would be a student", "Sería un estudiante", 0));
-// lista.push(new frase("I would be studying", "Estaría estudiando", 0));
-// lista.push(new frase("I have been a student", "He sido un estudiante", 0));
-// lista.push(new frase("I have been studying", "He estado estudiando", 0));
-// lista.push(new frase("I had been a student", "Había sido un estudiante", 0));
-// lista.push(new frase("I had been studying", "Había estado estudiando", 0));
-// lista.push(new frase("I will have been a student", "Habré sido un estudiante", 0));
-// lista.push(new frase("I will have been studying", "Habré estado estudiando", 0));
-// lista.push(new frase("I would have been a student", "Habría sido un estudiante", 0));
-// lista.push(new frase("I would have been studying", "Habría estado estudiando", 0));
-
+lista.push(new frase("I will be studying", "Estaré estudiando", 0));
+lista.push(new frase("I would be a student", "Sería un estudiante", 0));
+lista.push(new frase("I would be studying", "Estaría estudiando", 0));
+lista.push(new frase("I have been a student", "He sido un estudiante", 0));
+lista.push(new frase("I have been studying", "He estado estudiando", 0));
+lista.push(new frase("I had been a student", "Había sido un estudiante", 0));
+lista.push(new frase("I had been studying", "Había estado estudiando", 0));
+lista.push(new frase("I will have been a student", "Habré sido un estudiante", 0));
+lista.push(new frase("I will have been studying", "Habré estado estudiando", 0));
+lista.push(new frase("I would have been a student", "Habría sido un estudiante", 0));
+lista.push(new frase("I would have been studying", "Habría estado estudiando", 0));
 
 
 lista.push(new frase("	I have lost my purse.	", "Estuve/estaba estudiando", 0));
@@ -120,28 +119,48 @@ lista.push(new frase("	Don't count on them	", "Estuve/estaba estudiando", 0));
 lista.push(new frase("	We can't count on it	", "Estuve/estaba estudiando", 0));
 lista.push(new frase("	You can count on it	", "Estuve/estaba estudiando", 0));
 lista.push(new frase("	Do you think we can count on it?	", "Estuve/estaba estudiando", 0));
-lista.push(new frase("	We'd better go by subway	", "Estuve/estaba estudiando", 0));
-lista.push(new frase("	 We have bought bread	", "Estuve/estaba estudiando", 0));
-lista.push(new frase("	 I haven't eaten chicken	", "Estuve/estaba estudiando", 0));
-lista.push(new frase("	 We haven't bought rice	", "Estuve/estaba estudiando", 0));
-lista.push(new frase("	 I have bought chicken	", "Estuve/estaba estudiando", 0));
-lista.push(new frase("	 I haven't bought chicken	", "Estuve/estaba estudiando", 0));
-lista.push(new frase("	 You've had turkey	", "Estuve/estaba estudiando", 0));
-lista.push(new frase("	 You've eaten chicken	", "Estuve/estaba estudiando", 0));
-lista.push(new frase("	 They have bought chicken	", "Estuve/estaba estudiando", 0));
-lista.push(new frase("	 They've eaten chicken	", "Estuve/estaba estudiando", 0));
-lista.push(new frase("	 I have bought chicken	", "Estuve/estaba estudiando", 0));
-lista.push(new frase("	 You haven't bought turkey	", "Estuve/estaba estudiando", 0));
-lista.push(new frase("	 I've eaten bread	", "Estuve/estaba estudiando", 0));
-lista.push(new frase("	 You've had chicken	", "Estuve/estaba estudiando", 0));
-lista.push(new frase("	 We've eaten chicken	", "Estuve/estaba estudiando", 0));
-lista.push(new frase("	 I have had chicken	", "Estuve/estaba estudiando", 0));
-lista.push(new frase("	 We haven't eaten bread	", "Estuve/estaba estudiando", 0));
-lista.push(new frase("	 I have bought chicken	", "Estuve/estaba estudiando", 0));
-lista.push(new frase("	 They've eaten chicken	", "Estuve/estaba estudiando", 0));
-lista.push(new frase("	 You haven't eaten bread	", "Estuve/estaba estudiando", 0));
-lista.push(new frase("	 You haven't eaten turkey	", "Estuve/estaba estudiando", 0));
-lista.push(new frase("	 We have had chicken	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	We'd better go by subway. It's faster	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	You'd better go by shittle bus. It's safer	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	I'd better fo by rental-car. It's easier	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	We'd better go by air. It's faster	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	We'd better go by road. It's more comfortable	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	We'd better fo by helicopter	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	They'd better go by sea	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	I'd better go by van. It's safer	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	We'd better go by shuttle bus. It's faster	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	You'd better go by rental-car. It's more comfortable	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	The cake was so big that we couldn't eat it all	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	It was such a big cake that we couldn't eat it all	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	The speech was so boring that I fell asleep	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	It was such a boring speech that I fell asleep	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	The people are so friendly that you'll feel at home	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	Thy are such friendly people that you'll fell at home	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	The weather was so bad that we stayed at home	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	It was such bad weater that we stayed at home	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	The recipe is so simple that my son could make it	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	It's such a simple recipe that my son could make it	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	It was such a hard question that he couldn't answer	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	The question was so hard that he couldn't answer	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	They were such hard questions that we couldn't answer	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	The question were so hard that we couldn't answer	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	It was such a good concert that i didn't want it to finish	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	The concert was so good that I didn't want it to finish	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	It was such an awful joke that nobody laughed	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	The joke was so awful that nobody laughed	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	They're such comfortable chairs that you'll never want to get up	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	The chairs are so comfortable that you'll never want to get up	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	I meant what I said	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	They gave us a car last week	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	I've heard two jokes so far this morning	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	The policeman heard the news	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	I've given you five clues so far	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	I didn't give him the book	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	I haven't heard the news	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	I didn't mean 'investments' but 'costs'	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	The boy hasn't given me the money	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	I didn't mean what I said	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("		", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	We have had chicken	", "Estuve/estaba estudiando", 0));
 lista.push(new frase("	 We haven't bought turkey	", "Estuve/estaba estudiando", 0));
 lista.push(new frase("	 We have had rice	", "Estuve/estaba estudiando", 0));
 lista.push(new frase("	 They have had rice	", "Estuve/estaba estudiando", 0));
@@ -173,6 +192,8 @@ lista.push(new frase("	 We've had turkey	", "Estuve/estaba estudiando", 0));
 lista.push(new frase("	 We have bought chicken	", "Estuve/estaba estudiando", 0));
 lista.push(new frase("	 You've had rice	", "Estuve/estaba estudiando", 0));
 lista.push(new frase("	 You haven't had rice	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	 We've eaten chicken	", "Estuve/estaba estudiando", 0));
+
 
 
 
@@ -216,9 +237,25 @@ $("#mostrarTexto").click(function () {
         $("#mostrarTexto").html("-------------");
         band = true;
     }
-
-
 });
+
+
+function timeout() {
+    setTimeout(function () {
+        // hacer lo siguiente
+
+        $("#next").click();
+
+
+
+        // fin hacer
+        timeout();
+    }, 2000);
+}
+// timeout();
+
+
+
 
 /* - - - - - - - - - - - - - - - - - - - - - - */
 function frase(eng, spa, ndif) {
@@ -233,17 +270,3 @@ function sentencia(person, hh) {
 }
 /* - - - - - - - - - - - - - - - - - - - - - - */
 var aleN = aleatorio();
-
-//
-// var texton;
-// texton = "Danc in ";
-
-// jQuery.get('/fichero.txt', function (result) {
-//     if (result == 'ON') {
-//         alert('ON');
-//     } else if (result == 'OFF') {
-//         alert('OFF');
-//     } else {
-//         alert(result);
-//     }
-// });
