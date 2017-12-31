@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ingresar frases</title>
+    <link rel="icon" href="src/css/favicon16-19.png">
+</head>
+<body class="container-fluid">
+
+<a href="pruebastart.html">Start Test</a>
+<input id="english" type="text" class="col-md-4">
+<input id="author" type="text" class="col-md-4">
+<input id="send" type="button" class="btn-primary btn" value="Send">
+<input id="clean" type="button" class="btn-primary btn" value="Clean">
+
+<pre id="objeto">
+
+</pre>
+
+
+<!--<div id="resultados">-->
+<ul id="lista"></ul>
+
+<p id="prueba"></p>
+
+<!--</ul>-->
+<!--</div>-->
+
+<script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
+<script src="src/bootstrap-4.0.0-alpha.6-dist/js/jquery311.min.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyAJo59m-l3-KCkkfG3aSsLEA0LtpGYP_OE",
+        authDomain: "holamundo-f6f70.firebaseapp.com",
+        databaseURL: "https://holamundo-f6f70.firebaseio.com",
+        projectId: "holamundo-f6f70",
+        storageBucket: "",
+        messagingSenderId: "197716110736"
+    };
+    firebase.initializeApp(config);
+    var uitext = document.getElementById("english");
+    var ulList = document.getElementById("lista");
+
+    var db = firebase.database();
+    var object = db.ref("object");
+
+
+//
+//    object.once("value", function(snapshot) {
+//        snapshot.forEach(function(hijos){
+//            console.log(hijos.val()["english"]);
+//
+//            const li = document.createElement("li");
+//            li.innerText = hijos.val()["english"];
+//            li.id = hijos.key;
+//             ulList.appendChild(li);
+//        });
+//        //console.log(snapshot.val());
+//    }, function (errorObject) {
+//        console.log("The read failed: " + errorObject.code);
+//    });
+    var listaFrases = [];
+    object.on("child_added", function(snap) {
+        const li = document.createElement("li");
+        var frase= snap.val()["english"];
+        li.innerText = frase;
+        listaFrases.push(frase);
+        li.id = snap.key;
+        ulList.appendChild(li);
+//        alert(snap);
+        //console.log(snapshot.val());
+    }, function (errorObject) {
+        console.log("The read failed: " + errorObject.code);
+    });
+
+
+
+//   dbRefList.on('child_added', snap => {
+//        const li = document.createElement("li");
+//        li.innerText = snap.val();
+//        li.id = snap.key;
+//        ulList.appendChild(li);
+//    });
+
+
+    $("#send").click(function () {
+        var lakey = object.push();
+        var r = db.ref("object/" + lakey.key + "/" );
+//        alert(lakey);
+//        p(lakey);
+
+        var infoip;
+        jQuery.get("https://ipinfo.io", function(response) {
+
+            console.log(response);
+            infoip = response;
+
+            alert(infoip);
+
+//        r.set(jsonobj);
+            var entrada = document.getElementById("english").value;
+            var autor = document.getElementById("author").value;
+            r.set({
+                english: entrada ,
+                author: autor,
+                info: infoip
+            });
+
+
+
+
+
+
+        }.bind(this), "jsonp");
+
+
+
+
+        alert(infoip);
+
+//        r.set(jsonobj);
+        var entrada = document.getElementById("english").value;
+        r.set({
+            english: entrada ,
+            author: ""
+          //  info: infoip
+        });
+        limpiarTextoEntrada;
+//        p(uitext.value);
+    });
+
+
+    $("#clean").click(function () {
+      limpiarTextoEntrada;
+    });
+
+    var limpiarTextoEntrada = function(){
+        document.getElementById("english").value = "";
+    };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    var p = function(arg){
+        return console.log(arg);
+    }
+</script>
+
+<style>
+    /*#lista { display: flex; flex-direction: column-reverse;*/
+    /*background-color: #d0e9c6}*/
+</style>
+
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>-->
+
+<script src="src/bootstrap-4.0.0-alpha.6-dist/js/tether140.min.js"></script>
+<script src="src/bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="src/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="src/font-awesome/css/font-awesome.min.css">
+
+<script src="src/js/send.js"></script>
+
+</body>
+</html>

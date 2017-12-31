@@ -159,7 +159,19 @@ lista.push(new frase("	I haven't heard the news	", "Estuve/estaba estudiando", 0
 lista.push(new frase("	I didn't mean 'investments' but 'costs'	", "Estuve/estaba estudiando", 0));
 lista.push(new frase("	The boy hasn't given me the money	", "Estuve/estaba estudiando", 0));
 lista.push(new frase("	I didn't mean what I said	", "Estuve/estaba estudiando", 0));
-lista.push(new frase("		", "Estuve/estaba estudiando", 0));
+/////
+lista.push(new frase("	I think I'll stay at home tonight	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	I think I'll have a beer	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	I reckon I'll be about ten minutes late	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	I reckon he'll leave the company soon	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	I reckon they'll get here around three o'clock	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	I don't think I'll go to the party	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	I don't think see her again	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	I don't think I'll be able to get there on time	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	I don't think she'll be able to help you	", "Estuve/estaba estudiando", 0));
+lista.push(new frase("	I don't think it'll last long	", "Estuve/estaba estudiando", 0));
+
+/////
 lista.push(new frase("	We have had chicken	", "Estuve/estaba estudiando", 0));
 lista.push(new frase("	 We haven't bought turkey	", "Estuve/estaba estudiando", 0));
 lista.push(new frase("	 We have had rice	", "Estuve/estaba estudiando", 0));

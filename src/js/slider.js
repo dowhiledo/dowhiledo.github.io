@@ -1,9 +1,9 @@
 var slideIndex = 1;
 showDivs(slideIndex);
 autoSlide();
-
+/*
 window.location.href = "https://electromecanicosperu.mybluemix.net/"
-
+*/
 function plusDivs(n) {
     showDivs(slideIndex += n);
 }
