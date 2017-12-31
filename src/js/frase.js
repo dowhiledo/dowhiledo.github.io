@@ -170,7 +170,7 @@ lista.push(new frase("	I don't think see her again	", "Estuve/estaba estudiando"
 lista.push(new frase("	I don't think I'll be able to get there on time	", "Estuve/estaba estudiando", 0));
 lista.push(new frase("	I don't think she'll be able to help you	", "Estuve/estaba estudiando", 0));
 lista.push(new frase("	I don't think it'll last long	", "Estuve/estaba estudiando", 0));
-
+//hola
 /////
 lista.push(new frase("	We have had chicken	", "Estuve/estaba estudiando", 0));
 lista.push(new frase("	 We haven't bought turkey	", "Estuve/estaba estudiando", 0));

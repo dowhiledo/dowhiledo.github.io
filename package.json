@@ -1,0 +1,23 @@
+{
+  "name": "dowhiledo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dowhiledo/dowhiledo.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dowhiledo/dowhiledo.github.io/issues"
+  },
+  "homepage": "https://github.com/dowhiledo/dowhiledo.github.io#readme",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "nightmare": "^2.10.0"
+  }
+}
